@@ -23,7 +23,7 @@ const LiveChat = () => {
     },[])
   return (
     <>
-    <div className='m-4 mt-20 h-[570px] w-[500px] p-2 rounded-lg bg-slate-100 border border-black ml-2'>
+    <div className='m-4 mt-20 h-[40%] w-[98%] p-2 rounded-lg bg-slate-100 border border-black ml-2'>
         
         {  Messages &&
             Messages.map((c,i)=>(
@@ -34,7 +34,7 @@ const LiveChat = () => {
             ))
         }
     </div>
-    <form className='w-full h-16 p-2 mt-2 border border-black' onSubmit={(e)=>
+    <form className='w-90% h-16 p-2 m-2 border border-black flex' onSubmit={(e)=>
         {e.preventDefault();
         dispatch(addMessage({
             name:"Darshan Shinde",

@@ -15,11 +15,11 @@ const WatchPage = () => {
     <div className='flex'>
       <div className='flex flex-col'>
         <div>
-          <iframe width="1030" height="570"
+          <iframe width="900" height="450"
           src={"https://www.youtube.com/embed/"+searchParams?.get("v") }
           title="YouTube video player" 
           frameBorder="0" 
-          className='aspect-video mt-20 ml-16 rounded-xl'
+          className='aspect-video mt-20 ml-10 rounded-xl'
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 
           allowFullScreen></iframe>
